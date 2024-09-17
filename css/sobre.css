@@ -1,0 +1,29 @@
+.sobre {
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+.sobre .linha {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.sobre h2 {
+  margin-bottom: 40px;
+}
+.sobre p {
+  margin-bottom: 20px;
+}
+@media (max-width: 900px) {
+  .sobre {
+    grid-template-columns: 1fr;
+  }
+  .sobre-texto {
+    order: 2;
+  }
+  .sobre-imagem {
+    order: 1;
+    margin: 0 auto;
+  }
+}

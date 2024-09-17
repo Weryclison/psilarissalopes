@@ -1,0 +1,51 @@
+.font-1-a {
+  font-family: "Noto serif";
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 120%;
+}
+.font-1-b {
+  font-family: "Noto serif";
+  font-weight: 400;
+  font-size: 1.15rem;
+  line-height: 110%;
+}
+.font-2-a {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 120%;
+}
+.font-2-b {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 180%;
+}
+@media (max-width: 900px) {
+  .font-1-a {
+    font-size: 2rem;
+  }
+  .font-1-b {
+    font-size: 0.875rem;
+  }
+}
+:root {
+  --branco: #eae6e1;
+  --marrom-1: #37210d;
+  --marrom-2: #583b1f;
+  --marrom-3: #745b43;
+}
+
+.branco {
+  color: var(--branco);
+}
+.marrom-1 {
+  color: var(--marrom-1);
+}
+.marrom-2 {
+  color: var(--marrom-2);
+}
+.marrom-3 {
+  color: var(--marrom-3);
+}

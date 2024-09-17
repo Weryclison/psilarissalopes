@@ -1,0 +1,44 @@
+.diferenciais {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 80px;
+  align-items: center;
+}
+.diferenciais h2 {
+  grid-column: 1/-1;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.diferenciais-t1 .grupo-texto:first-child,
+.diferenciais-t2 .grupo-texto:first-child {
+  margin-bottom: 60px;
+}
+.diferenciais-t2 {
+  text-align: right;
+}
+
+.diferenciais h3 {
+  margin-bottom: 20px;
+}
+@media (max-width: 900px) {
+  .diferenciais {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .diferenciais h2 {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .diferenciais-t1 {
+    order: 1;
+  }
+  .diferenciais-t2 {
+    text-align: left;
+    order: 2;
+  }
+  .diferenciais-foto {
+    order: 3;
+    margin: 0 auto;
+  }
+}

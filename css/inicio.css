@@ -1,0 +1,24 @@
+.flex-menu {
+  margin-bottom: 70px;
+}
+.inicio .t-1 {
+  margin-bottom: 12px;
+}
+.inicio h1 {
+  max-width: 800px;
+}
+.inicio .t-2 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.inicio .linha {
+  margin-bottom: 20px;
+}
+.inicio .botao {
+  margin-bottom: 150px;
+}
+@media (max-width: 900px) {
+  .inicio .botao {
+    margin-bottom: 80px;
+  }
+}
