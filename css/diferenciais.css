@@ -41,4 +41,8 @@
     order: 3;
     margin: 0 auto;
   }
+  .diferenciais-t1 .grupo-texto:first-child,
+  .diferenciais-t2 .grupo-texto:first-child {
+    margin-bottom: 20px;
+  }
 }
