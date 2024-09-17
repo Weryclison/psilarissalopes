@@ -29,3 +29,7 @@ img {
   max-width: 100%;
   display: block;
 }
+.logo {
+  max-width: 150px !important;
+  max-height: 120px !important;
+}
